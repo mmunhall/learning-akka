@@ -17,5 +17,5 @@ project/plugins/project/
 .worksheet
 
 # IntelliJ IDEA
-.idaa
+.idea/
 *.iml
