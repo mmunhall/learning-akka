@@ -1,4 +1,4 @@
-package com.packt.akka.cluster
+package com.packt.akka.akkacluster.cluster
 
 import akka.actor.{Actor, ActorSystem, Props, RootActorPath}
 import akka.cluster.Cluster

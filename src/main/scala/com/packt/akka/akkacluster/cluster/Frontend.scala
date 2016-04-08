@@ -1,7 +1,7 @@
-package com.packt.akka.cluster
+package com.packt.akka.akkacluster.cluster
 
-import com.packt.akka.commons._
 import akka.actor.{Actor, ActorRef, ActorSystem, Props, Terminated}
+import com.packt.akka.commons._
 import com.typesafe.config.ConfigFactory
 
 import scala.collection.immutable.IndexedSeq
