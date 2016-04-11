@@ -14,5 +14,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-remote" % "2.4.0",
   "com.typesafe.akka" %% "akka-cluster" % "2.4.0",
   "com.typesafe.akka" %% "akka-cluster-tools" % "2.4.0",
-  "com.typesafe.akka" %% "akka-cluster-sharding" % "2.4.0"
+  "com.typesafe.akka" %% "akka-cluster-sharding" % "2.4.0",
+  "com.typesafe.akka" %% "akka-http-core-experimental" % "1.0",
+  "com.typesafe.akka" %% "akka-http-experimental" % "1.0",
+  "com.typesafe.akka" %% "akka-http-spray-json-experimental" % "1.0"
 )
