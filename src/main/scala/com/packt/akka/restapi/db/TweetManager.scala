@@ -17,7 +17,7 @@ object TweetManager {
 
   def deleteById(id: String)(implicit ec: ExecutionContext) = collection.remove(queryById(id)).map(_ => Deleted)
 
-  def find(implicit ec: ExecutionContext) = collection.find(emptyQuery).cursor[BSONDocument].collect[List]()
+  def find(implicit ec: ExecutionContext) = collection.find(emptyQuery).cursor[BSONDocument]().collect[List]()
 
   private def emptyQuery = BSONDocument()
 
